@@ -1,0 +1,35 @@
+{
+  "name": "mcv.server.git",
+  "version": "1.0.0",
+  "description": "MakeCoolVideo",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express": "^4.14.0",
+    "express-fileupload": "0.0.5",
+    "nodemailer": "^2.6.4"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "mongodb",
+    "db"
+  ],
+  "author": "Anton Lapshin",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",    
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.1"    
+  }
+}
