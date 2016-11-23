@@ -1,0 +1,1 @@
+var Dropbox=require("node-dropbox"),api=Dropbox.api("DDEefKCFmRAAAAAAAAAADk3O1h4mKSf5SLwVa_8pfvLySMikHzO4l_6jsyagVcB5");module.exports={createFolder:function(e){return new Promise(function(r,o){api.createDir(e,function(e){r(e)})})},createFile:function(e,r){return new Promise(function(o,i){api.createFile(e,r,function(e){o(e)})})}};

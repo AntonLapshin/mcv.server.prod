@@ -1,0 +1,1 @@
+var Dropbox=require("dropbox"),api=new Dropbox({accessToken:"DDEefKCFmRAAAAAAAAAADk3O1h4mKSf5SLwVa_8pfvLySMikHzO4l_6jsyagVcB5"});module.exports={createFolder:function(e){return api.filesCreateFolder({path:e})},createFile:function(e,r){return api.filesUpload({path:e,contents:r})}};
