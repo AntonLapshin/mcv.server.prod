@@ -1,0 +1,1 @@
+var nodemailer=require("nodemailer");module.exports={getTransporter:function(){return nodemailer.createTransport("smtps://makemecoolvideo%40gmail.com:24547294@smtp.gmail.com")}};

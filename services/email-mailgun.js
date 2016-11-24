@@ -1,0 +1,1 @@
+var nodemailer=require("nodemailer");module.exports={getTransporter:function(){return nodemailer.createTransport("smtps://postmaster@slideshowplanet.com:1f7e350d0db8b40104e5f66d0524e0c8@smtp.mailgun.org")}};
